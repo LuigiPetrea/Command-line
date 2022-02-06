@@ -24,7 +24,7 @@ case '@':
     system("color B2");
 system("cls");
  cout << "\nCalculatorul este disponibil apasati enter pentru mai departe \r\r\r"<<endl<<endl;
- PlaySound(TEXT("Win.wav"),NULL, SND_SYNC);
+ PlaySound(TEXT("sound/Win.wav"),NULL, SND_SYNC);
     system("pause");
     system("cls");
       system("color 6B");
@@ -244,7 +244,7 @@ break;
 
       system("COLOR 4");
     cout << "\nCe ati introdus este incorect incearca sa rescri!\n\n";
-     PlaySound(TEXT("Game Over.wav"),NULL, SND_SYNC);
+     PlaySound(TEXT("sound/Game Over.wav"),NULL, SND_SYNC);
             cout << "\nApasati tasta Q pentru a iesi din aplicatie sau apasati tasta W pentru mai departe\n\n";
     char mai_departe;
     cin >> mai_departe;
@@ -256,7 +256,7 @@ cout << "\nApasati enter pentru a iesi din aplicatie\n\n";
 
 break;
     case 'W':
-    PlaySound(TEXT("Win.wav.wav"),NULL, SND_SYNC);
+    PlaySound(TEXT("sound/Win.wav"),NULL, SND_SYNC);
 
 break;
 
@@ -369,7 +369,7 @@ break;
             system("cls");
   system("color 4");
         cout << "\nErorr!!Ce ati cerut de la Calculator nu a putut sa fie pus in fuctiune!Incercati sa modificati ce ati scris!!!\n\n";
-        PlaySound(TEXT("Game Over.wav"),NULL, SND_SYNC);
+        PlaySound(TEXT("sound/Game Over.wav"),NULL, SND_SYNC);
         int n = 1;
            while(n){
     Sleep(1);
@@ -388,7 +388,7 @@ cout << "\nApasati enter pentru a iesi din aplicatie\n\n";
 break;
     case 'W':
         system("cls");
-        PlaySound(TEXT("Win.wav"),NULL, SND_SYNC);
+        PlaySound(TEXT("sound/Win.wav"),NULL, SND_SYNC);
 /******Aici se scrie codul*******/
 
 break;
@@ -641,7 +641,7 @@ int n = 100;
 
       system("COLOR 4");
     cout << "\nCe ati introdus este incorect incearca sa rescri!\n\n";
-     PlaySound(TEXT("Game Over.wav"),NULL, SND_SYNC);
+     PlaySound(TEXT("sound/Game Over.wav"),NULL, SND_SYNC);
             cout << "\nApasati tasta Q pentru a iesi din aplicatie sau apasati tasta W pentru mai departe\n\n";
     char mai_departe;
     cin >> mai_departe;
@@ -656,7 +656,7 @@ break;
     case 'W':
         system("cls");
 /**AICI SE SCRIE Codurile**/
-    PlaySound(TEXT("Win.wav.wav"),NULL, SND_SYNC);
+    PlaySound(TEXT("sound/Win.wav"),NULL, SND_SYNC);
 
 break;
 
@@ -1133,7 +1133,7 @@ break;
     system("cls");
   system("color 4");
         cout << "\nErorr!!Ce ati cerut de la caluclator nu a putut fi pus in functiune!Incercati sa modificati ce ati scris!!!\n\n";
-        PlaySound(TEXT("Game Over.wav"),NULL, SND_SYNC);
+        PlaySound(TEXT("sound/Game Over.wav"),NULL, SND_SYNC);
         int n = 1;
            while(n){
     Sleep(1);
@@ -1152,7 +1152,7 @@ cout << "\nApasati enter pentru a iesi din aplicatie\n\n";
 break;
     case 'W':
         system("cls");
-        PlaySound(TEXT("Win.wav"),NULL, SND_SYNC);
+        PlaySound(TEXT("sound/Win.wav"),NULL, SND_SYNC);
 
 
 break;
@@ -1249,7 +1249,7 @@ break;
     system("cls");
   system("color 4");
         cout << "\nErorr!!Ce ati cerut de la Calculator nu a putut sa fie pus in fuctiune!Incercati sa modificati ce ati scris!!!\n\n";
-        PlaySound(TEXT("Game Over.wav"),NULL, SND_SYNC);
+        PlaySound(TEXT("sound/Game Over.wav"),NULL, SND_SYNC);
         int n = 1;
            while(n){
     Sleep(1);
@@ -1268,7 +1268,7 @@ cout << "\nApasati enter pentru a iesi din aplicatie\n\n";
 break;
     case 'W':
         system("cls");
-        PlaySound(TEXT("Win.wav"),NULL, SND_SYNC);
+        PlaySound(TEXT("sound/Win.wav"),NULL, SND_SYNC);
 /******Aici se scrie codul*******/
 
 break;
@@ -1284,7 +1284,7 @@ break;
     system("cls");
   system("color 4");
         cout << "\nErorr!!Operatorul scris este gresit! Incercati sa modificati ce ati scris!!!\n\n";
-        PlaySound(TEXT("Game Over.wav"),NULL, SND_SYNC);
+        PlaySound(TEXT("sound/Game Over.wav"),NULL, SND_SYNC);
         int n = 1;
            while(n){
     Sleep(1);
@@ -1303,7 +1303,7 @@ cout << "\nApasati enter pentru a iesi din aplicatie\n\n";
 break;
     case 'W':
         system("cls");
-        PlaySound(TEXT("Win.wav"),NULL, SND_SYNC);
+        PlaySound(TEXT("sound/Win.wav"),NULL, SND_SYNC);
 /******Aici se scrie codul*******/
 
 break;
@@ -1319,7 +1319,7 @@ break;
     system("cls");
   system("color 4");
         cout << "\nErorr!!Pinul scris nu exista! Incercati sa modificati ce ati scris!!!\n\n";
-        PlaySound(TEXT("Security.wav"),NULL, SND_SYNC);
+        PlaySound(TEXT("Secursound/ity.wav"),NULL, SND_SYNC);
         int n = 1;
            while(n){
     Sleep(1);
@@ -1340,7 +1340,7 @@ break;
  system(" color B2");
         system("cls");
 
-        PlaySound(TEXT("Win.wav"),NULL, SND_SYNC);
+        PlaySound(TEXT("sound/Win.wav"),NULL, SND_SYNC);
             system("cls");
     cout << "\nAcest Calculator nu este disponibil, pana nu il decodati cu un cod : "<<endl<<endl;
     cout << "Scrieti un cod pentru al decoda : ";
@@ -1352,7 +1352,7 @@ break;
   system("cls");
   system("color B2");
  cout << "\nCalculatorul este disponibil apasati enter pentru mai departe \r\r\r"<<endl<<endl;
- PlaySound(TEXT("Win.wav"),NULL, SND_SYNC);
+ PlaySound(TEXT("sound/Win.wav"),NULL, SND_SYNC);
     system("pause");
     system("cls");
 system("color 6B");
@@ -1573,7 +1573,7 @@ break;
 
       system("COLOR 4");
     cout << "\nCe ati introdus este incorect incearca sa rescri!\n\n";
-     PlaySound(TEXT("Game Over.wav"),NULL, SND_SYNC);
+     PlaySound(TEXT("sound/Game Over.wav"),NULL, SND_SYNC);
             cout << "\nApasati tasta Q pentru a iesi din aplicatie sau apasati tasta W pentru mai departe\n\n";
     char mai_departe;
     cin >> mai_departe;
@@ -1585,7 +1585,7 @@ cout << "\nApasati enter pentru a iesi din aplicatie\n\n";
 
 break;
     case 'W':
-    PlaySound(TEXT("Win.wav.wav"),NULL, SND_SYNC);
+    PlaySound(TEXT("sound/Win.wav"),NULL, SND_SYNC);
 
 break;
 
@@ -1944,7 +1944,7 @@ int n = 100;
 
       system("COLOR 4");
     cout << "\nCe ati introdus este incorect incearca sa rescri!\n\n";
-     PlaySound(TEXT("Game Over.wav"),NULL, SND_SYNC);
+     PlaySound(TEXT("sound/Game Over.wav"),NULL, SND_SYNC);
             cout << "\nApasati tasta Q pentru a iesi din aplicatie sau apasati tasta W pentru mai departe\n\n";
     char mai_departe;
     cin >> mai_departe;
@@ -1959,7 +1959,7 @@ break;
     case 'W':
         system("cls");
 /**AICI SE SCRIE Codurile**/
-    PlaySound(TEXT("Win.wav.wav"),NULL, SND_SYNC);
+    PlaySound(TEXT("sound/Win.wav"),NULL, SND_SYNC);
 
 break;
 
@@ -2436,7 +2436,7 @@ break;
     system("cls");
   system("color 4");
         cout << "\nErorr!!Pinul scris nu exista! Incercati sa modificati ce ati scris!!!\n\n";
-        PlaySound(TEXT("Game Over.wav"),NULL, SND_SYNC);
+        PlaySound(TEXT("sound/Game Over.wav"),NULL, SND_SYNC);
         int n = 1;
            while(n){
     Sleep(1);
@@ -2455,7 +2455,7 @@ cout << "\nApasati enter pentru a iesi din aplicatie\n\n";
 break;
     case 'W':
         system("cls");
-        PlaySound(TEXT("Win.wav"),NULL, SND_SYNC);
+        PlaySound(TEXT("sound/Win.wav"),NULL, SND_SYNC);
 /******Aici se scrie codul*******/
 
 break;
@@ -2552,7 +2552,7 @@ break;
     system("cls");
   system("color 4");
         cout << "\nErorr!!Ce ati cerut de la Calculator nu a putut sa fie pus in fuctiune!Incercati sa modificati ce ati scris!!!\n\n";
-        PlaySound(TEXT("Game Over.wav"),NULL, SND_SYNC);
+        PlaySound(TEXT("sound/Game Over.wav"),NULL, SND_SYNC);
         int n = 1;
            while(n){
     Sleep(1);
@@ -2571,7 +2571,7 @@ cout << "\nApasati enter pentru a iesi din aplicatie\n\n";
 break;
     case 'W':
         system("cls");
-        PlaySound(TEXT("Win.wav"),NULL, SND_SYNC);
+        PlaySound(TEXT("sound/Win.wav"),NULL, SND_SYNC);
 
 
 break;
@@ -2587,7 +2587,7 @@ break;
     system("cls");
   system("color 4");
         cout << "\nErorr!!Operatorul scris este gresit! Incercati sa modificati ce ati scris!!!\n\n";
-        PlaySound(TEXT("Game Over.wav"),NULL, SND_SYNC);
+        PlaySound(TEXT("sound/Game Over.wav"),NULL, SND_SYNC);
     Sleep(1);
       system("cls");
     cout << "\nErorr!!Operatorl scris este gresit! Incercati sa modificati ce ati scris!!!\n\n";
@@ -2604,7 +2604,7 @@ cout << "\nApasati enter pentru a iesi din aplicatie\n\n";
 break;
     case 'W':
         system("cls");
-        PlaySound(TEXT("Win.wav"),NULL, SND_SYNC);
+        PlaySound(TEXT("sound/Win.wav"),NULL, SND_SYNC);
 command_line();
            }
           }
